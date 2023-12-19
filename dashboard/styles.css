@@ -7,12 +7,12 @@ body{
 }
 
 .main{
-    grid-template-columns: 20vw 80vw;
-    grid-template-rows: 100vh;
+    grid-template-columns: 20fr 80fr;
+    grid-template-rows: 100fr;
 }
 
 .right{
-    padding: 0ch;
+    padding: 0px;
     grid-template-columns: 1fr;
     grid-template-rows: 15fr 85fr;
 
