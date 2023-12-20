@@ -49,6 +49,15 @@ body{
 
 .side-bar{
     background-color: #2286d6;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 9fr;
+    padding: 10px;
+    h2{
+        color:#ffffff;
+    };
+    h3{
+        color: #ffffff;
+    }
 }
 
 .card{
@@ -71,4 +80,9 @@ body{
 .announcement{
     background-color: #ffffff;
     border-radius: 10px;
+}
+
+.options{
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 6fr 1fr 3fr 7fr;
 }
