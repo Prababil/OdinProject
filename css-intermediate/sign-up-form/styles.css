@@ -1,0 +1,119 @@
+:root{
+    --standard-margin : 5vw;
+}
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+h2{
+    margin-bottom: 3vh;
+}
+
+input{
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.left-image{
+    position: absolute;
+    height: 100vh;
+    margin: 0%;
+    padding: 0;
+    height: 100vh;
+    box-shadow: 0 0 2px;
+}
+
+img{
+    margin: 0;
+    height: 100vh;
+    width: 40vw;
+}
+
+.right-form{
+
+    width:60vw;
+    position: absolute;
+    left: 40vw;
+    margin: 0%;
+    background-color: rgb(250, 246, 246);
+    height:100vh
+}
+
+.card{
+    position:absolute;
+    background-color: aliceblue;
+    width: 60vw;
+    height: 40vh;
+    top: 35vh;
+    box-shadow:5px;
+    border-radius: 0;
+    padding: 2vw;
+}
+input:focus{
+    border: solid 2px;
+    
+
+}
+input:invalid:not(:focus){
+    border: solid 2px;
+    border-color: rgb(255, 71, 71);
+    box-shadow: 1px red;
+}
+
+input{
+    border:solid 1px gray;
+    border-radius: 5px;
+}
+.odd{
+
+    margin-left: 0;
+    
+}
+
+.even{
+    position: absolute;
+    margin: var(--standard-margin);
+    left: 30vw;
+}
+
+.submit-button{
+    margin :10vh;
+    position: absolute;
+    top: 67vh;
+}
+.row{
+    padding-top: 3vh;
+}
+
+.logo{
+    top: 30vh;
+    position: absolute;
+    background-color: black;
+    opacity: 50%;
+    height: 20vh;
+    width: 40vw;
+}
+.logo img{
+    height: 20vh;
+    width: 20vw;
+    position : absolute;
+}
+
+.logo h1{
+    font-family:Norse-Bold ;
+    position: absolute;
+    left :20vw;
+    color: gray;
+    height: 15vh;
+    font-size: 7rem;
+    top: 2vh
+}
+label{
+    font-size:small;
+    color: rgb(88, 88, 88);
+}
+h5{
+    color: gray;
+}

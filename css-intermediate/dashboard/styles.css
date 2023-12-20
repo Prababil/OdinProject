@@ -1,0 +1,74 @@
+:root{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    /* border: solid black 1px; */
+}
+
+.main{
+    grid-template-columns: 20fr 80fr;
+    grid-template-rows: 100fr;
+}
+
+.right{
+    padding: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15fr 85fr;
+
+}
+
+.dashboard{
+    padding :15px;
+    gap : 15px;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #e0e5ef;
+}
+
+.project-main{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 15fr;
+}
+
+.projects{
+    padding:15px;
+    gap : 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr ;
+}
+
+.etc{
+    padding :15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.side-bar{
+    background-color: #2286d6;
+}
+
+.card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-left: solid rgb(255, 208, 0) 10px;
+    padding: 10px;
+}
+
+.etc div{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 6fr;
+}
+
+.trending{
+    background-color: #ffffff;
+    border-radius:10px;
+}
+
+.announcement{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
