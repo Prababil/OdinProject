@@ -6,7 +6,7 @@ body{
 }
 .container{
     display: grid;
-    /* border: solid black 1px; */
+    border: solid black 1px;
 }
 
 .main{
@@ -17,9 +17,67 @@ body{
 .right{
     padding: 0px;
     grid-template-columns: 1fr;
-    grid-template-rows: 15fr 85fr;
+    grid-template-rows: 10fr 90fr;
 
 }
+
+.nav-bar{
+    grid-template-columns: 1fr; 
+    grid-template-rows: 2fr 3fr;
+    
+    .nav-top{
+        grid-template-rows:1fr;
+        grid-template-columns: 2fr 1fr;
+        img{
+            height: 30px;
+            width: 30px;
+        }
+        .search-area{
+            grid-template-columns: 1fr 10fr;
+            grid-template-rows: 1fr;
+            div{
+                padding: 5px;
+            }
+            input{
+                border: solid 1px gray;
+                border-radius: 15px;
+                padding-left: 10px;
+                margin-right: 40px;
+            };
+        }
+        .notification{
+            grid-template-columns: 1fr 1fr 4fr;
+            padding:0px;
+            gap:20px;
+            p{
+                margin:0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                padding: 0px
+            }
+        }
+    };
+    .nav-bottom{
+        grid-template-rows: 1fr;
+        grid-template-columns: 5fr 3fr;
+        .nav-buttons{
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap:20px;
+            padding: 20px;
+            padding-top:10px;
+            padding-bottom:10px;
+            button{
+                border:solid 0px;
+                background-color: #2286d6;
+                color: #ffffff;
+                border-radius: 20px;
+            }
+        };
+    };
+}
+
+
 
 .dashboard{
     padding :15px;
@@ -67,7 +125,7 @@ body{
     padding: 10px;
 }
 
-.etc div{
+.etc>div{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 6fr;
 }
@@ -75,11 +133,15 @@ body{
 .trending{
     background-color: #ffffff;
     border-radius:10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .announcement{
     background-color: #ffffff;
     border-radius: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .options{
